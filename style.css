@@ -1,0 +1,372 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Lilex:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0f0f14;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 30px 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        nav a {
+            color: #aaa;
+            text-decoration: none;
+            margin-left: 30px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover,
+        nav a.activate {
+            color: #fff;
+        }
+
+        .info {
+            padding: 120px 80px;
+            background: radial-gradient(circle at top right, #6c5ce7, transparent 40%);
+        }
+
+        .info h2 {
+            font-size: 56px;
+            max-width: 700px;
+            line-height: 1.1;
+        }
+
+        .info p {
+            margin-top: 20px;
+            max-width: 500px;
+            color: #ccc;
+            font-size: 18px;
+        }
+
+        .info button {
+            margin-top: 40px;
+            padding: 16px 40px;
+            border: none;
+            border-radius: 30px;
+            background: linear-gradient(135deg, #6c5ce7, #00cec9);
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .info button:hover {
+            transform: scale(1.05);
+        }
+
+        .section {
+            padding: 100px 80px;
+        }
+
+        .section h3 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: #181820;
+            padding: 30px;
+            border-radius: 16px;
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            background: #1f1f2b;
+        }
+
+        .card h4 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #aaa;
+            font-size: 15px;
+        }
+.contact {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form input,
+.form textarea {
+    background: #181820;
+    border: 1px solid #2a2a3a;
+    border-radius: 12px;
+    padding: 16px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    color: #777;
+}
+
+.form input:focus,
+.form textarea:focus {
+    outline: none;
+    border-color: #6c5ce7;
+}
+
+.form button {
+    align-self: flex-start;
+    padding: 14px 36px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #6c5ce7, #00cec9);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.form button:hover {
+    transform: scale(1.05);
+}
+
+        footer {
+            padding: 40px;
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+        }
+/* ################################################################################################################################################################ */
+
+        header {
+            padding: 30px 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .nav2 a {
+            color: #aaa;
+            text-decoration: none;
+            margin-left: 30px;
+            transition: color 0.3s;
+        }
+
+        .nav2 a:hover,
+        .nav2 a.active {
+            color: #fff;
+        }
+
+        .info2 {
+            padding: 100px 80px 60px;
+            background: radial-gradient(circle at top right, #6c5ce7, transparent 40%);
+        }
+
+        .info2 h2 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .info2 p {
+            max-width: 600px;
+            color: #ccc;
+            font-size: 18px;
+        }
+
+        .section {
+            padding: 80px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .card2{
+            background: #181820;
+            border-radius: 20px;
+            padding: 30px;
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .card2:hover {
+            transform: translateY(-10px);
+            background: #1f1f2b;
+        }
+
+        .card2 span {
+            display: block;
+            font-size: 14px;
+            color: #6c5ce7;
+            margin-bottom: 10px;
+        }
+
+        .card2 h3 {
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        .card2 p {
+            color: #aaa;
+            font-size: 15px;
+        }
+
+        footer {
+            padding: 40px;
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+        }
+
+
+/* ################################################################################################################################################################ */
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0f0f14;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 30px 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        nav a {
+            color: #aaa;
+            text-decoration: none;
+            margin-left: 30px;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .contacts {
+            padding: 100px 80px 60px;
+            background: radial-gradient(circle at top right, #6c5ce7, transparent 40%);
+        }
+
+        .contacts h2 {
+            font-size: 48px;
+            max-width: 600px;
+        }
+
+        .contacts p {
+            margin-top: 20px;
+            color: #ccc;
+            max-width: 500px;
+        }
+
+        .wrapper {
+            padding: 80px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+
+        .info3 h3,
+        .form2 h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .item {
+            margin-bottom: 20px;
+            color: #ccc;
+        }
+
+        .item span {
+            display: block;
+            color: #777;
+            font-size: 14px;
+        }
+
+        .form2 form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form2 input,
+        .form2 textarea {
+            margin-bottom: 20px;
+            padding: 14px 16px;
+            border-radius: 10px;
+            border: none;
+            background: #181820;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .form2 textarea {
+            resize: none;
+            height: 140px;
+        }
+
+        .form2 button {
+            padding: 14px;
+            border-radius: 30px;
+            border: none;
+            font-size: 16px;
+            background: linear-gradient(135deg, #6c5ce7, #00cec9);
+            color: #fff;
+            cursor: pointer;
+        }
+
+
+
+        footer {
+            padding: 40px;
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+        }
